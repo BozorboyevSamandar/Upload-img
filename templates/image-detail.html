@@ -1,0 +1,8 @@
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="text-center mt-2">
+        <img src="{{ image.image.url }}">
+        <h2 class="text-center">{{ image.caption }}</h2>
+        <a href="{% url 'image-delete' image.pk %}">Delete</a>
+    </div>
+</div>
